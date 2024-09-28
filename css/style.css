@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   height: 400vh;
+   color: white;
+}
+.border{
+    border: 1px dashed red;
+}
+
+
+.family{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#margin {
+    border: 1px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+#padding {
+    border: 1px solid yellow;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+#float {
+    border: 1px solid skyblue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    float: right;
+    color: black;
+}
+
+
+
+
+.overflow {
+    border: 1px solid goldenrod;
+    width: 500px;
+    margin-top: 50px;
+    height: 300px;
+    overflow: auto;
+}
+
+
+
+
+.text {
+    border: 1px solid black;
+    margin-top: 100px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+
+
+.green{
+
+width: 600px;
+height: 400px;
+background: green;
+margin-top: 50px;
+position: relative;
+}
+
+
+.red{
+    
+width: 300px;
+height: 300px;
+background: red;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 50%;
+}
