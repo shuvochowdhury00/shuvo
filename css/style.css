@@ -92,3 +92,19 @@ right: 0;
 margin: auto;
 border-radius: 50%;
 }
+
+.fixed{
+padding: 20px;
+border: 1px solid red;
+position:fixed;
+bottom: 0px;
+right: 10px;
+}
+
+.sticky{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+    padding:20px;
+}
+.sticky ul li{display: inline-block;}
