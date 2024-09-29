@@ -4,7 +4,7 @@ body{
    background-size:cover;
    background-position: center;
    height: 400vh;
-   color: white;
+   
 }
 .border{
     border: 1px dashed red;
